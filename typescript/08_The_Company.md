@@ -253,7 +253,12 @@ export class Company {
       const randomChance:number = randomNumber(1,100);
 
       switch(randomChance){
-          case 1 || 2 || 3 || 4 || 5 || 6:
+          case 1:
+          case 2:
+          case 3:
+          case 4:
+          case 5:
+          case 6:
               this.employees.push(this.createEmployee());
               break;
           case 7:
