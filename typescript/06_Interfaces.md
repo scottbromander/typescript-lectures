@@ -168,3 +168,5 @@ export class Employee implements IPerson {
     }
 }
 ```
+
+(Note that Interfaces play a HUGE role in Software Development, but understanding mechanically how they work first, is helpful to progressing to why and when you should use them. Also note, that they play a huge role in FE development with Frameworks like React and Angular.)
